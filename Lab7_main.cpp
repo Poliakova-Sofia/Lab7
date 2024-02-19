@@ -38,6 +38,7 @@ int main() // menu
                 int matrix[M][N];
                 int m, n, k;
                 get_matrix(matrix, m, n);
+                cout << " Matrix 69 " << endl;
                 cout << "Enter the column number where to insert 1s : ";
                 cin >> k;
                 matrix69(matrix, m, n, k);
@@ -79,6 +80,7 @@ void get_matrix(int matrix[M][N], int& m, int& n) {
 // task1
 void matrix21(int matrix[M][N], const int& m, const int& n) {
     // Output the arithmetic mean for odd-numbered rows
+    cout << " Matrix 21 " << endl;
     cout << "Arithmetic mean for odd-numbered rows: " << endl;
     for (int i = 0; i < m; i += 2) {
         int sum = 0;
